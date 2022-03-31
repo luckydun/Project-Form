@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+   <head><title>Project Page</title>
+   </head>
+  <body>
+<h2 align="center"><u>Project Management</u></h2>
+      <table bgcolor="lapeete">
+         <form>
+            <tr>
+            <td>
+            Project Name
+            </td>
+            <td>
+            <input type="text" name="pname" value="project name">
+            </td>
+            </tr>
+            <td>
+            Assigned to
+            </td>
+            <td>
+            <input type="text" name="aname" value="Er Merry Petision">
+            </td>
+            </tr>
+            <tr>
+            <td>
+            Start Date
+            </td>
+            <td>
+            <input type="text" name="date" value="dd-mm-yyyy">
+            </td>
+            </tr>
+            <tr>
+            <td>
+            End Date
+            </td>
+            <td>
+            <input type="text" name="edate" value="dd-mm-yyyy">
+            </td>
+            </tr>
+            <tr>
+            <td>
+            Priority
+            </td>
+            <td>
+            <input type="radio" name="one" value="pick">
+            High
+            <input type="radio" name="one" value="pick">
+            Average
+            <input type="radio" name="one" value="pick">
+            Low
+            </td>
+            </tr>
+            <tr>
+            <td>
+            Description
+            </td>
+            <td>
+             <textarea name="message" rows="3" cols="30">
+            </textarea>
+            </td>
+            </tr>
+            <tr>
+            <td align="center" colspan="2">
+            <input type="submit" name="submit">
+            <input type="button" name="reset" value="Clear">
+            </td>
+            </tr>
+         </form>
+      </table>
+  </body>
+</html>
