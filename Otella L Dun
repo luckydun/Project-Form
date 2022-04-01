@@ -18,7 +18,9 @@
             Assigned to
             </td>
             <td>
-            <input type="text" name="aname" value="Er Merry Petision">
+            <select name="Assigned to">
+            <option value="Er Merry Petision">
+            <option value="mujabi">
             </td>
             </tr>
             <tr>
@@ -26,7 +28,7 @@
             Start Date
             </td>
             <td>
-            <input type="text" name="date" value="dd-mm-yyyy">
+            <input type="date" value="dd-mm-yyyy">
             </td>
             </tr>
             <tr>
@@ -34,7 +36,7 @@
             End Date
             </td>
             <td>
-            <input type="text" name="edate" value="dd-mm-yyyy">
+            <input type="date" value="dd-mm-yyyy">
             </td>
             </tr>
             <tr>
@@ -55,14 +57,14 @@
             Description
             </td>
             <td>
-             <textarea name="message" rows="3" cols="30">
+            <textarea name="message" rows="3" cols="30">
             </textarea>
             </td>
             </tr>
             <tr>
             <td align="center" colspan="2">
             <input type="submit" name="submit">
-            <input type="button" name="reset" value="Clear">
+            <input type="reset" value="Clear">
             </td>
             </tr>
          </form>
